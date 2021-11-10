@@ -1,0 +1,14 @@
+/* 
+Create variables and assign them strings that will help the bottom console.log run properly:
+
+Write your code below comment and above the console log 
+*/
+console.log(`I am currently learning the programming language called ${language}. I ${adjective1} this program already. I read recently that declaring variables with the ${keyword1} keyword has gone out of style ever since ECMAScript ${year}. Oh, also, my instructor ${instructor} is awesome! Sanity check: ${num1 - num2} = ${num3}.`);
+```
+
+## String Manipulation (Continued. Pt 2)
+
+### Escaping special characters
+
+There are certain characters within JavaScript that need "escaping" in order to properly display them. This depends on a couple of factors, one being whether you are declaring your strings with single quotes (`''`) or double quotes (`""`):
+
