@@ -49,18 +49,21 @@ let number = Math.ceil(Math.random()*20)
   // If your number of watermelons is more than 15, print, 'Did you have a coupon?'
 console.log(number)
 
-// if(number < 3){
+//  if(number === 1 || number === 2){
 //     console.log('Looks like you like watermelon')
+//  }
+// else if (number > 2 && number <= 5){
+//     (console.log('That is a lot of watermelon')) 
 // }
-// else if (numer > 2 (console.log('That is a lot of watermelon'))
-// )
-
-// else if(number > 5 (console.log('Thats too many watermelom')))
-
-// else if (number > 10 (console.log('You must be CRAZY for watermelon')))
-  
-// else if (number > 15 (console.log('Did you have a coupon?')))
-
+//  else if(number > 5 && number <= 10){ 
+//      (console.log('Thats too many watermelom'))
+//  }
+// else if (number > 10 &&  number <= 15){ 
+//     (console.log('You must be CRAZY for watermelon'))
+// }
+// else if (number > 15){
+//     (console.log('Did you have a coupon?'))
+// }
     
 
 
@@ -71,11 +74,13 @@ console.log(number)
   // Using a ternary, if your hunger is greater than 6 print, 'Time to eat!'
   // Otherwise print. "I'm not hungry"
 let hunger = 2
-if(hunger > 6){
-    console.log('time to eat!')
-}
-else( console.log("Im not hungry"))
-console.log(hunger)
+// if(hunger > 6){
+//     console.log('time to eat!')
+// }
+const food = hunger > 6 ? "Time to eat!" : "Im not hungery"
+console.log(food)
+// else( console.log("Im not hungry"))
+// console.log(hunger)
 // 10. Think of an Magic-8 Ball
   // Write a switch statement that works the same way. 
   // When you run this file you should
@@ -87,55 +92,55 @@ console.log(hunger)
     // The console prints out:
       // Will I win the lottery? Not Likely. 
 
-      let magic = Math.ceil(Math.random()*9)
-      switch(magic) {
-          case 1 :
-              console.log('Your number is 1')
-              break;
-            case 2 :
-                console.log('Your number is 2')
-                break;
-            case 3 :
-                console.log('Your number is 3')
-                break;
-            case 4 : 
-                console.log('Your number is 4')
-                break;
-            case 5 :
-                console.log('Your number is 5')
-                break;
-            case 6 : 
-                console.log('Your number is 6')
-                break;
-            case 7 : 
-                console.log('Your number is 7')
-                break;
-            case 8 : 
-                console.log('Your number is 8')
-                break;
-        console.log(magic)
+    //   let magic = Math.ceil(Math.random()*9)
+    //   switch(magic) {
+    //       case 1 :
+    //           console.log('Your number is 1')
+    //           break;
+    //         case 2 :
+    //             console.log('Your number is 2')
+    //             break;
+    //         case 3 :
+    //             console.log('Your number is 3')
+    //             break;
+    //         case 4 : 
+    //             console.log('Your number is 4')
+    //             break;
+    //         case 5 :
+    //             console.log('Your number is 5')
+    //             break;
+    //         case 6 : 
+    //             console.log('Your number is 6')
+    //             break;
+    //         case 7 : 
+    //             console.log('Your number is 7')
+    //             break;
+    //         case 8 : 
+    //             console.log('Your number is 8')
+    //             break;
+    //     console.log(magic)
         
-      }
+    //   }
 
   // Pseudocode:
     // variable that holds a randomly generated number
     // variable for holding the question
     // switch statement that picks responses based on the random number variable 
-let num = Math.ceil(Math.random()*3)
-let question = 'yes'
-let question2 = 'No'
-let question3 = 'Maybe'
-switch(num){
-    case 1 :
-        console.log(question)
-        break;
-    case 2 : 
-        console.log(question2)
-        break;
-    case 3 :
-        console.log(question3)
-        break;
-}
+// let num = Math.ceil(Math.random()*3)
+// let question = 'yes'
+// let question2 = 'No'
+// let question3 = 'Maybe'
+// switch(num){
+//     case 1 :
+//         console.log(question)
+//         break;
+//     case 2 : 
+//         console.log(question2)
+//         break;
+//     case 3 :
+//         console.log(question3)
+//         break;
+// }
 // BONUS:
   // On the prior example, try and have the answer print like someone is speaking to you.
   
