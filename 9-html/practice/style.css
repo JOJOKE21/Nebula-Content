@@ -1,0 +1,30 @@
+h1{
+    font-family: Verdana;
+    color: red;
+    text-align-last: center;
+}
+
+
+
+h3{
+    font-family:monospace;
+    color: blue;
+    text-align-last: center;
+}
+
+body{
+    background-color: black;
+    
+}
+
+p{
+font-family: sans-serif;
+color: blueviolet;
+text-align: center;
+}
+ul{
+    font-family: serif;
+    color: cadetblue;
+    text-align: center;
+    list-style-position: inside;
+}
