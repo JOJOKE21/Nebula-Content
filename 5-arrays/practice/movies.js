@@ -33,5 +33,7 @@
 // }
 // console.log(range(0, 5))
 
-let num = Math.mean(2, 1, 4, 3)
-console.log(math)
+// let num = Math.mean(2, 1, 4, 3)
+// console.log(math)
+
+
