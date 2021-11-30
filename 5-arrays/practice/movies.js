@@ -13,11 +13,25 @@
 
 
 
-const myLuckyNumbers = [5, 3, 2, 11, 29];
-myLuckyNumbers[4] = 29/3
-myLuckyNumbers[1] = 3*3
-console.log(myLuckyNumbers)
+// const myLuckyNumbers = [5, 3, 2, 11, 29];
+// myLuckyNumbers[4] = 29/3
+// myLuckyNumbers[1] = 3*3
+// console.log(myLuckyNumbers)
 
-//Change the last element to equal the quotient of dividing it by 3.
-//Change the 2nd element to equal the product of multiplying it by 3.
-//log out the new array and check your work.
+// //Change the last element to equal the quotient of dividing it by 3.
+// //Change the 2nd element to equal the product of multiplying it by 3.
+// //log out the new array and check your work.
+
+
+
+// function range(start, end) {
+//     let arry = [];
+//     for (let i = start; i <= end; i++) {
+//         arry.push(i);
+//     }
+//     return arry;
+// }
+// console.log(range(0, 5))
+
+let num = Math.mean(2, 1, 4, 3)
+console.log(math)

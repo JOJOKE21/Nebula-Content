@@ -1,0 +1,51 @@
+.btn{
+    float:center;
+    width: 100%;
+    background-color:rgb(51,51,51);
+    color:white;
+    padding: 10px;
+}
+
+
+
+.container{ 
+    display: flex;
+    justify-content:space-evenly
+}
+body{
+    background-color: black;
+
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+h4{
+    color: blue;
+    text-align: center;
+}
+
+.images{
+    display:flex;
+    justify-content: center;
+    
+    
+}
+
+.image{
+    float: center;
+    padding: 5px;
+
+}
+
+p{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}

@@ -92,40 +92,41 @@
 //     horsepower: '717-797',
 //     price: '$72,350',
 //     start: function(){
-//     console.log("Vroom Vroom");
+//     console.log("Vroom Vroom");;
 // } 
 // }
 // console.log(car)
 // function startCar(){
 //     console.log("Vroom Vroom!");
+//     car.owner = "Jordan";
 // }
+
 
 // car.start = startCar;
 
-// car.start();
-// const name = "Johnny"
-// function greet(name){ 
-//      return `Hello, ${name}!`;
-// }
-// if(name === "Johnny"){
-//       return "Hello, my love!";
-//   }
-// greet()
 
 
-function DNAtoRNA(dna) {
-for(let i = 0; i < dna.length; i++){
-    const currentLetter = dan[i]
-    const letters = ['G', 'C', 'A', 'T']
-   let rna = []
-    if(dna[i] === 'T'){
-    rna = rna = 'U'
-    }else { 
-    rna = rna + dna[i]
-}
+// const car = {
+//     color: 'Green',
+//     engine: 'V8',
+//     exhaust: 'Dual Rear Exit'
+// };
 
-} 
-return Rna
-  }
+// car.engine = 'V6';
+// // We've changed the engine property on our car object
 
-return 
+// car.topSpeed = '125 mph';
+// // What?? Oh, we can add a brand new property like this too
+
+// console.log(car);
+
+let score = 40
+
+if( score >= 80){
+    console.log("excellent")
+    } else if ( score >= 60){
+    console.log("ok")
+    } 
+ else if( score < 59){
+    console.log("failed")
+    }

@@ -1,0 +1,77 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Box1{
+    
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.Box2{
+  
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.Box3{
+    
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.Box4{
+    
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.Box5{
+    
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.Box6{
+   
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.Box7{
+   
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.Box8{
+  
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.Box9{
+   
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+.Box10{
+  
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
