@@ -29,3 +29,41 @@
 // arrayOfNums.forEach([]=>({
 //     console.log(Element)
 // )}
+
+// function digitize(n) {
+//     let nums = [];
+//     let numbers = n.toString().split('')
+//     numbers.reverse()
+//     for( i = 0; i < numbers.length; i++){
+//         nums.push(parseint(numbers[i]))
+   
+//   }
+//   return nums
+// }
+
+
+
+
+
+
+// function removeChar(str){
+
+//     return str.slice(1,-1)
+    
+// }
+
+// console.log(removeChar('Pizza Party'))
+
+// function between(a, b) {
+//    let arry = [];
+//    for(i = 0; i < arry.length; i++){
+//        arry.push(a,b)
+//    }
+//    return arry
+//   }
+
+
+function century(year) {
+    if(year <  )
+     return;
+   }
