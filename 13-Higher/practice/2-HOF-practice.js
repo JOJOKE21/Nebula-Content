@@ -40,10 +40,10 @@ console.log(changeNums([1,2,3,4,5], arryPower))
 //      Ex: stringInfo(capitals, 'Howdy Partner!') => 1
 //      Ex: stringInfo(nonLetters, 'Howdy Partner!') => 2
 
-// const stringInfo = (letters, func) =>{
-//     const stringInfo = func(letters)
-//     return stringInfo
-// }
+const stringInfo = (letters, func) =>{
+    const stringInfo = func(letters)
+    return stringInfo
+}
 // const Length = (letters) => {
 // for(let i = 0; i < letters.length; i++){
 //     return letters.length
