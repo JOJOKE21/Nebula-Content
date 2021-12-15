@@ -22,3 +22,4 @@ console.log(ageOver21)
     longSting = longSting.split('')
     const numsOnly = longSting.filter(letters => letters.toUpperCase() === letters.toLowerCase())
     console.log(numsOnly)
+
