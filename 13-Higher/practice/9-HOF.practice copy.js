@@ -35,6 +35,10 @@ const arryOfPeople = [{name:"Joe",age:30},{name:"Jordan",age:25},{name:"Jake",ag
 let longerThan5 = arryOfPeople.filter(people => people.name.length > 5)
 console.log(longerThan5)
 
+const arryOfPeople = [{name:"Joe",age:30},{name:"Jordan",age:25},{name:"Jake",age:34},{name:"Raphael",age:20}]
+let longerThan5 = arryOfPeople.filter(people => people.name.length > 5)
+console.log(longerThan5)
+
 // 7.   Given a list of people (all objects) list people over the age of 20 and under the age of 35 in order of youngest to oldest
 const youngest = arryOfPeople.sort((a,b) => a.age > b.age ? 1:-1)
 console.log(youngest)
