@@ -11,7 +11,8 @@ function App() {
         "TopSpeed": "180 mph",
         "HorsePower": "760 hp",
         "TwoDoor": "Ture",
-        "Price": "$73,995"
+        "Price": "$73,995",
+        "Image": "https://blogmedia.dealerfire.com/wp-content/uploads/sites/1027/2019/12/2020-Ford-Mustang-Shelby-colors_o10.png"
       },
       {
         "Name": "Dodge Charger SXT",
@@ -19,7 +20,8 @@ function App() {
         "TopSpeed": "196 mph",
         "HorsePower": "292 hp",
         "TwoDoor": "False",
-        "Price": "$30,990"
+        "Price": "$30,990",
+        "Image": "https://s.aolcdn.com/commerce/autodata/images/USC60DOC201B021001.jpg"
       },
       {
         "Name": "Chevrolet Camaro ZL1",
@@ -27,7 +29,8 @@ function App() {
         "TopSpeed": "202 mph",
         "HorsePower": "650 hp",
         "TwoDoor": "Ture",
-        "Price": "$62,000"
+        "Price": "$62,000",
+        "Image": "https://inv.assets.sincrod.com/ChromeColorMatch/us/TRANSPARENT_cc_2020CHC020062_01_1280_G7E.png"
       },
       {
         "Name": "Tesla Model 3",
@@ -35,7 +38,8 @@ function App() {
         "TopSpeed": "162 mph",
         "HorsePower": "258 hp",
         "TwoDoor": "False",
-        "Price": "$35,000"
+        "Price": "$35,000",
+        "Image": "https://platform.cstatic-images.com/large/in/v2/stock_photos/052b03d6-1081-46ce-8cd1-29f2908023ce/526d85f6-b2f9-49de-8473-44956a1d4033.png"
       }
     ]
   }`
